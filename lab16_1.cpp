@@ -43,7 +43,7 @@ void showData(double * dPtr, int N, int M){
 
 void randData(double * dPtr, int N, int M){
 	for(int i = 0; i < N*M; i++){
-		*(dPtr + i) = rand()%100 / 100.0;
+		*(dPtr + i) = rand()%101 / 100.0;
 	}
 }
 
